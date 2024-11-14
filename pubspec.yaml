@@ -25,9 +25,9 @@ flutter:
 
   # Define assets if you are using them
   assets:
-    - assets/speech-bubble.png
+    - assets/imagen.png
 
 flutter_icons:
   android: true
   ios: true
-  image_path: "assets/speech-bubble.png"
+  image_path: "assets/imagen.png"
