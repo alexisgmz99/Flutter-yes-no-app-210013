@@ -7,7 +7,7 @@ class ChatProvider extends ChangeNotifier {
   final getYesNoAnswer = GetYesNoAnswer();
 
   List<Message> messageList = [
-    Message(text: 'Hola amor soy Alexis', fromWho: FromWho.me),
+    Message(text: 'Hola bbcita', fromWho: FromWho.me),
     Message(text: 'que haces?', fromWho: FromWho.me),
   ];
 
@@ -17,7 +17,7 @@ class ChatProvider extends ChangeNotifier {
     final newMessage = Message(text: text, fromWho: FromWho.me);
     messageList.add(newMessage);
 
-    if (text.endsWith('?')) {
+    if (text.endsWith('dime?')) {
       herReply();
     }
 
